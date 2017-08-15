@@ -11,3 +11,5 @@ defaults:
 collections:
   application_development:
     output: true
+  microservices:
+    output: true
