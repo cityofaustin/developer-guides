@@ -1,0 +1,4 @@
+s3_id: <%= ENV['AWS_S3_KEY'] %>
+s3_secret: <%= ENV['AWS_S3_SECRET'] %>
+s3_bucket: coa-developer-guides
+# s3_bucket: s3-us-east-1.amazonaws.com/coa-developer-guides
