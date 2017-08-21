@@ -1,0 +1,6 @@
+language: ruby
+rvm:
+  - 2.4
+install: bundle install
+script: jekyll build
+after_success: s3_website push
