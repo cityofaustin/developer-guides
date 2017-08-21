@@ -1,0 +1,15 @@
+theme: jekyll-theme-zilker
+title: Web Development Guides
+permalink: pretty
+repository_url: https://github.com/cityofaustin/developer-guides
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "page"
+collections:
+  application_development:
+    output: true
+  microservices:
+    output: true
