@@ -7,11 +7,12 @@ script: jekyll build
 branches:
   only:
     - master
-    - test
+    - deploy-test
 deploy:
   provider: s3
   access_key_id: <%= ENV['AWS_S3_KEY'] %>
   secret_access_key: <%= ENV['AWS_S3_SECRET'] %>
   bucket: coa-developer-guides
-#   on:
-#     branch: deploy-test
+  on:
+    branch: deploy-test
+    branch: master
