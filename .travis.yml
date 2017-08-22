@@ -8,10 +8,10 @@ branches:
   only:
     - master
     - deploy-test
-# deploy:
-#   provider: s3
-#   access_key_id: <%= ENV['AWS_S3_KEY'] %>
-#   secret_access_key: <%= ENV['AWS_S3_SECRET'] %>
-#   bucket: coa-developer-guides
+deploy:
+  provider: s3
+  access_key_id: <%= ENV['AWS_S3_KEY'] %>
+  secret_access_key: <%= ENV['AWS_S3_SECRET'] %>
+  bucket: coa-developer-guides
 #   on:
 #     branch: deploy-test
