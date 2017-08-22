@@ -4,15 +4,16 @@ rvm:
 install: bundle install
 script: jekyll build
 # after_success: s3_website push
-branches:
-  only:
-    - master
-    - deploy-test
+# branches:
+#   only:
+#     - master
+#     - deploy-test
 deploy:
   provider: s3
-  access_key_id: <%= ENV['AWS_S3_KEY'] %>
-  secret_access_key: <%= ENV['AWS_S3_SECRET'] %>
-  bucket: coa-developer-guides
+  access_key_id: "<%= ENV['AWS_S3_KEY'] %>"
+  secret_access_key: "<%= ENV['AWS_S3_SECRET'] %>"
+  bucket: "coa-developer-guides"
+  skip_cleanup: true
+  region: "us-east-1"
   on:
     branch: deploy-test
-    branch: master
