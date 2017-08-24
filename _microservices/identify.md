@@ -11,6 +11,12 @@ If some or all of these conditions apply then a microservice approach might make
 
 One benefit of a microservice is its applicability to a range of use cases or its use by a number of different applications. It’s important to identify the appropriate level of abstraction for the microservice so that it can be used as widely as possible. A solution doesn't _have_ to be highly-leveraged to justify its implementation as a microservice, but widely-leveraged solutions are likely to be strong candidates for a microservice architecture.
 
+In order to identify your leverage opportunity you might reach out to other departments within the city who might benefit from the solution(s) you are building. This can allow you to:
+
+- Share costs (hosting, SaaS, etc...)
+- Decrease unit costs (like price breaks once you hit a certain number of users/seats)
+- Share development resources
+
 ### Risk mitigation
 
 Sometimes a particular feature or dependency can represent a single point of failure for an application. Microservices can help hedge that risk by isoltaing the failure to themselves.
