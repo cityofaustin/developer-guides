@@ -7,7 +7,7 @@ deploy:
   provider: s3
   access_key_id: $AWS_S3_KEY
   secret_access_key: $AWS_S3_SECRET
-  bucket: coa-developer-guides
+  bucket: developer-guides.austintexas.io
   skip_cleanup: true
   region: us-east-1
   local_dir: _site
