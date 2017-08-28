@@ -1,6 +1,6 @@
 # Developer Guides
 
-[http://coa-developer-guides.s3-website-us-east-1.amazonaws.com](http://coa-developer-guides.s3-website-us-east-1.amazonaws.com) (temporary URL until we get something more permanent on `austintexas.gov` or `austintexas.io`)
+[http://developer-guides.austintexas.io](http://developer-guides.austintexas.io)
 
 ---
 
@@ -59,7 +59,7 @@ Other notes:
 
 ### Production
 
-- **URL:** [http://coa-developer-guides.s3-website-us-east-1.amazonaws.com](http://coa-developer-guides.s3-website-us-east-1.amazonaws.com) 
+- **URL:** [http://developer-guides.austintexas.io](http://developer-guides.austintexas.io) 
 
 - **GitHub:** `master`
 
