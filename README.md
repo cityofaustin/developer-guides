@@ -95,6 +95,15 @@ Other notes:
     - Enabled _Static website hosting_ (in the _Properties_ settings), with the _Index document_ setting set as `index.html` so that requests to the root path will resolve there (rather than requiring `/index.html` added to the path)
 
 
+### Staging
+
+- **URL:** [http://coa-developer-guides.s3-website-us-east-1.amazonaws.com](http://coa-developer-guides.s3-website-us-east-1.amazonaws.com)
+- **GitHub:** `staging`
+- **Deployment:**
+  - `staging` will auto-deploy via Travis whenever the branch is updated
+  - You can update it via a  force push or via pull request
+  - There are no branch protection settings applied.
+
 ### Local
 
 - **URL:** [http://localhost:4000/]() 
