@@ -12,6 +12,11 @@ The site uses the [Zilker Jekyll theme](https://github.com/cityofaustin/zilker-t
 
 Learn more about Jekyll at [the Jekyll documentation site](https://jekyllrb.com/docs/home/)
 
+## Dependencies
+The site runs on [Ruby](https://www.ruby-lang.org/en/) and [Jekyll](https://jekyllrb.com). If you use different versions of Ruby for different apps then you might look into [Ruby Version Manager (RVM)](https://rvm.io).
+
+As of September 2017 this site uses `Ruby 2.4.0` and `Jekyll 3.5.2`.
+
 ## Quick Start
 
 1. Clone the repo  
@@ -41,6 +46,7 @@ Learn more about Jekyll at [the Jekyll documentation site](https://jekyllrb.com/
 
 - Amenity Applewhite ([@amenity](https://github.com/amenity))
 - Matt Langan ([@mattlangan](https://github.com/mattlangan))
+- Brian Smith ([@briaguya](https://github.com/briaguya))
 
 ## Contributing
 

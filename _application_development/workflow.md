@@ -74,7 +74,7 @@ Of course if those are your only local changes you could still do `$ git add .` 
 
 ### Push your commits to the remote
 
-Even if you're not done working yet it's a good idea to push your changes to the GitHub remote. This allows you to get feedback on your work (if desired) and provides a safe backup of your code in case your local branch gets unwieldy.
+Even if you're not done working yet it's a good idea to push your changes to the GitHub remote as often as possible. This allows you to get feedback on your work (if desired) and provides a safe backup of your code in case your local branch gets unwieldy.
 
 ```
 $ git push origin my-feature
