@@ -12,6 +12,11 @@ The site uses the [Zilker Jekyll theme](https://github.com/cityofaustin/zilker-t
 
 Learn more about Jekyll at [the Jekyll documentation site](https://jekyllrb.com/docs/home/)
 
+## Dependencies
+The site runs on [Ruby](https://www.ruby-lang.org/en/) and [Jekyll](https://jekyllrb.com). If you use different versions of Ruby for different apps then you might look into [Ruby Version Manager (RVM)](https://rvm.io).
+
+As of September 2017 this site uses `Ruby 2.4.0` and `Jekyll 3.5.2`.
+
 ## Quick Start
 
 1. Clone the repo  
@@ -41,6 +46,7 @@ Learn more about Jekyll at [the Jekyll documentation site](https://jekyllrb.com/
 
 - Amenity Applewhite ([@amenity](https://github.com/amenity))
 - Matt Langan ([@mattlangan](https://github.com/mattlangan))
+- Brian Smith ([@briaguya](https://github.com/briaguya))
 
 ## Contributing
 
@@ -94,6 +100,15 @@ Other notes:
 
     - Enabled _Static website hosting_ (in the _Properties_ settings), with the _Index document_ setting set as `index.html` so that requests to the root path will resolve there (rather than requiring `/index.html` added to the path)
 
+
+### Staging
+
+- **URL:** [http://coa-developer-guides.s3-website-us-east-1.amazonaws.com](http://coa-developer-guides.s3-website-us-east-1.amazonaws.com)
+- **GitHub:** `staging`
+- **Deployment:**
+  - `staging` will auto-deploy via Travis whenever the branch is updated
+  - You can update it via a  force push or via pull request
+  - There are no branch protection settings applied.
 
 ### Local
 

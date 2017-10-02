@@ -9,6 +9,8 @@ Git's [_rebase_](https://git-scm.com/docs/git-rebase) feature is a powerful and 
 
 More precisely, the _interactive_ rebase feature can be used to re-write history to make it appear like you never made a mistake and wrote all of your perfect code in one try. Yes, it is sorcery. No, you do not need a Hogwarts degree perform it.
 
+This guide will walk through how to perform an interactive rebase using the command line and your default code editor, but a desktop client such as [Atlassian's SourceTree](https://www.atlassian.com/blog/sourcetree/interactive-rebase-sourcetree) can also be used to achieve the same results.
+
 ## Starting at a messy commit history
 
 So you've done your work in your feature branch and, hopefully, have been generating frequent, isolated commits for your work in progress. When you run `$ git log` your history may look something like this:
@@ -45,7 +47,7 @@ Date:   Wed Jun 28 08:35:43 2017 -0500
     wip aggregate all guides outside of workflow
 ```
 
-## Initiating the interactive rebase
+## Initiating the interactive rebase via command line
 
 So you have a bunch of "wip" (work-in-progress) commits that you are now ready to do 2 things with:
 

@@ -2,7 +2,6 @@ theme: jekyll-theme-zilker
 title: Web Development Guides
 permalink: pretty
 repository_url: https://github.com/cityofaustin/developer-guides
-baseurl: http://developer-guides.austintexas.io
 defaults:
   -
     scope:
