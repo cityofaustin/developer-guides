@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 # gem "jekyll-theme-zilker", github: "cityofaustin/zilker-theme"
-gem 'jekyll-theme-zilker', github: 'mattlangan/zilker-theme'
+gem 'jekyll-theme-zilker', github: 'mattlangan/zilker-theme', :branch => "ui-updates"
 
 group :jekyll_plugins do
    gem "jekyll-redirect-from"

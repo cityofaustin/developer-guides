@@ -1,6 +1,7 @@
 GIT
   remote: git://github.com/mattlangan/zilker-theme.git
-  revision: fc2f83b41d4dc77f03934f29152f467e274bd288
+  revision: 1f74333c9d65df66db2bb43feab9f38bed5bd78c
+  branch: ui-updates
   specs:
     jekyll-theme-zilker (0.1.1)
       jekyll (~> 3.4)
