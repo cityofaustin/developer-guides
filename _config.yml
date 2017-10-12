@@ -13,3 +13,5 @@ collections:
     output: true
   microservices:
     output: true
+  resources:
+    output: true
