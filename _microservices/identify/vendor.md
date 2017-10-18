@@ -8,6 +8,10 @@ position: 1
 
 There are a number of ways to work with 3rd-party vendors to enjoy the benefits of a microservice approach.
 
+## Integrating with existing solutions
+
+A microservice can be used to connect city-built software with vendor solutions that are already in use, whether those solutions are off-the-shelf or custom-built. In this case, it is important to promote close collaboration between the microservice author(s) and the engineering team that's responsible for iterations to and maintenance on the existing solution to ensure that and update doesn't break the microservice.
+
 ## Full-stack solutions
 
 If you're considering an all-in-one solution or platform, these questions can help determine whether it offers the flexibility to either be used _as_ a microservice or can effectively use an existing one:
