@@ -24,3 +24,7 @@ Sometimes a particular feature or dependency can represent a single point of fai
 ### Increased flexibility
 
 When single features or components of a larger application become too intertwined with the application's core business logic it can present a problem to developers who are trying to introduce changes to either the feature or the application as a whole. Implementing features as microservices allow developers to iterate without as much risk of unintended consequences.
+
+### Decoupling parts of the solution
+
+Monolithic solutions typically exert strict control over the user experience that relies on the back-end business logic. A microservice can be deployed to allow you to, for example, write a custom front-end and UX that submits data to a separate service that manages the back-end. This is how the USDS team that worked with Vets.gov tackled a rebuild of the form creation and submission experience. Since existing vendor solutions were already being used to manage the workflow and business logic around the submitted data they decided to write an API that would take data submitted from their redesigned forms and route it to the appropriate vendor service.
